@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="restaurantStyle.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" >
+        <title>Coffee by Rosalina</title>
+</head>
+<body style="background-color:rgb(119, 83, 58)">
+    <div style="height: 90px;">
+        <header style="text-align: right;">
+            <nav>
+                <img src="./CoffeeLogoPNG.png" alt="Coffee Logo" style="float: left; width: 55px; margin-top: -14px; margin-left:6px">
+                <p style="float: left; margin-top: 0px; margin-left: 20px; color: rgb(230, 213, 190); text-shadow: 3px 3px 4px #171111;"><em>Coffee by Rosalina</em></p>
+                <ul>
+                    <li><a href="./restaurantIndex.html">Homepage</a></li>
+                    <li><a href="./restuarantMenu.html">Our Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="container" style="display: grid; text-align: center;">
+        <h2 style="color: black;">We would love to hear from you!</h2>
+        <form style="margin:5px;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email (optional):</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            
+            <input type="radio" id="one_star" name="rating" value="one" required>
+            <label for="one">1 Star</label>
+            <input type="radio" id="two_stars" name="rating" value="two" required>
+            <label for="two">2 Stars</label>
+            <input type="radio" id="three_stars" name="rating" value="three" required>
+            <label for="three">3 Stars</label>
+            <input type="radio" id="four_stars" name="rating" value="four" required>
+            <label for="four">4 Stars</label>
+            <input type="radio" id="five_stars" name="rating" value="five" required>
+            <label for="five">5 Stars</label>
+            
+            <br><br>
+            <label for="ranking">Why did you rank us this way?</label>
+            <br>
+            <textarea name="ranking" style="width:700px; height:100px; font-family: Geneva, sans-serif;"></textarea>
+            
+            <br><br>
+            <label for="improvement">How can we improve your experience?</label>
+            <br>
+            <textarea name="improvement" style="width:700px; height:100px; font-family: Geneva, sans-serif;"></textarea>
+
+            <br><br>
+            <label for="new_item">What item would you like to see added to the menu?</label>
+            <br>
+            <textarea name="new_item" style="width:700px; height:100px; font-family: Geneva, sans-serif;"></textarea>
+
+            <br>
+            <input type="submit" value="Submit!">
+        </form>
+    </div>
+</body>
+</html>
