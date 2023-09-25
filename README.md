@@ -6,3 +6,7 @@ ACM Web members' first project. This was made in September of 2023 using HTML an
 If you would like to preview this website in action, you may visit [this link](https://ben9brooks.github.io/web-projects/)!
 
 This link leads to the ACM Web examples page where you can not only see my examples but other examples from ACM Web Leads.
+
+# Video Demo:
+
+![](https://github.com/loganmarkley/CoffeeByRosalina/blob/main/DemoGIF.gif)
